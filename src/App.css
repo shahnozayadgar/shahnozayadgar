@@ -1,0 +1,87 @@
+/* Profile.css */
+.profile-container {
+  text-align: center;
+}
+.profile-image {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.profile-name {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  color: #1b3b5f; /* Example dark-blue color */
+}
+.profile-title {
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+.profile-links {
+  margin-top: 1rem;
+}
+.profile-links a {
+  margin: 0 0.5rem;
+  display: inline-block;
+}
+
+/* PublicationList.css */
+.publication-list {
+  margin-bottom: 2rem;
+}
+.publication-list h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.publication-list h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #1b3b5f;
+}
+
+/* PublicationItem.css */
+.publication-item {
+  display: flex;
+  align-items: start;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+}
+.publication-thumbnail {
+  position: relative;
+  width: 120px;
+  flex-shrink: 0;
+}
+.publication-thumbnail img {
+  width: 100%;
+  border-radius: 4px;
+}
+.venue-label {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background-color: #1b3b5f;
+  color: #fff;
+  padding: 2px 6px;
+  font-size: 0.8rem;
+  border-radius: 3px;
+}
+.publication-content h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+.publication-content p {
+  margin: 4px 0;
+}
+.publication-links a {
+  margin-right: 10px;
+  font-size: 0.9rem;
+  color: #1b3b5f;
+  text-decoration: none;
+  border: 1px solid #1b3b5f;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+.publication-links a:hover {
+  background-color: #1b3b5f;
+  color: #fff;
+}
